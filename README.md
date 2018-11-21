@@ -47,7 +47,7 @@ curl -X POST \
 
 ```shell
 curl -X POST \
-  --url http://127.0.0.1:8001/services/mock-service/plugins/
+  --url http://127.0.0.1:8001/services/mock-service/plugins/ \
   --data "name=oauth2" \
   --data "config.scopes=email, phone, address" \
   --data "config.mandatory_scope=true" \
